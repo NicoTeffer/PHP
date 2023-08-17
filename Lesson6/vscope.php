@@ -31,7 +31,7 @@
     test2();
 
     // Will generate an Error
-    echo echo "<p>Value of y is: $y</p>";
+    echo "<p>Value of y is: $y</p>";
 
 ?>
 </body>
