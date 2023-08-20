@@ -20,7 +20,7 @@
 
     // SAVES QUERY WHERE FIRST- & LASTNAME MATCH)
     $sql = "
-    SELECT email FROM users WHERE firstName='Ted' AND lastName='Smith';
+    SELECT email FROM users WHERE firstName='Ted' AND lastName='Smith' OR lastName='King';
     ";
     // ESTABLISHED CONNECTION AND SENDS QUERY
     $result = $conn->query($sql);
