@@ -11,5 +11,7 @@
     <file url="file://$PROJECT_DIR$/Lesson53/prepared.php" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/Lesson54/delete.php" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/Lesson54/deleteuser.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Lesson54/update.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Lesson54/updateuser.php" dialect="GenericSQL" />
   </component>
 </project>

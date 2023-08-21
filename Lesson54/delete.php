@@ -37,7 +37,8 @@
     <tr>
         <td>ID</td>
         <td><?php echo $row["id"]; ?></td>
-        <td><a href="deleteuser.php?id=<?php echo $row["id"] ?>">Delete</a></td>
+        <td><a href="deleteuser.php?id=<?php echo $row["id"] ?>">Delete</a>
+        <br><br><a href="update.php?id=<?php echo $row["id"] ?>">Update</a></td>
     </tr>
     <tr>
         <td>First Name</td>
