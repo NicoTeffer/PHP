@@ -13,6 +13,13 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
+    // CHECKS IF MESSAGE IS NOT EMPTY - RETURNS DELETE MSG
+    if (isset($_GET["message"])) {
+        if ( ($_GET)["message"] === "delete") {
+            echo "Record deleted successfully";
+        }
+    }
+
     // SQL QUERY
     $sql = "SELECT id, firstName, lastName, email FROM users";
     $result = $conn->query($sql);

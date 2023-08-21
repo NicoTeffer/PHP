@@ -20,7 +20,7 @@
 
     if ($conn->query($sql) === TRUE) {
         // RETURNS USER BACK TO THE PREVIOUS HEADER PAGE AFTER EXECUTING STATEMENT
-        header("location:delete.php");
+        header("location:delete.php?message=delete");
     } else {
         echo "Error deleting record: " . $conn->error;
     }
